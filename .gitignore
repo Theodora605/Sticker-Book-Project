@@ -25,3 +25,6 @@ dist-ssr
 
 application_default_credentials.json
 env
+instance
+backups
+__pycache__
