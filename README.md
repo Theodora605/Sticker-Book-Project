@@ -16,10 +16,6 @@ docker build -t sticker-api .
 
 ## Running the Server
 
-In order to operate the server, a Google Cloud account is required. You will need a Google Cloud project id as well as your application default credentials JSON file.
-
-Check https://cloud.google.com/docs/authentication/application-default-credentials for information on how to generate this file
-
 Save the default credentials file to the folder you will like to use as a volume for temporary storage and run the following command from that directory:
 
 ```
