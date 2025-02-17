@@ -8,7 +8,7 @@ To run this server, a Google Cloud account is required. You will need a Google C
 
 Check https://cloud.google.com/docs/authentication/application-default-credentials for information on how to generate the credentials file
 
-In app.py, ensure that the GCS_STICKERS_BUCKET variable is set to the name of the bucket you wish to use, then build the docker container:
+In app.py, ensure that the GCS_STICKERS_BUCKET variable is set to the name of the bucket you wish to use, then build the docker image:
 
 ```
 docker build -t sticker-api .
