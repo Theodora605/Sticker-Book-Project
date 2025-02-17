@@ -20,7 +20,7 @@ In order to operate the server, a Google Cloud account is required. You will nee
 
 Check https://cloud.google.com/docs/authentication/application-default-credentials for information on how to generate this file
 
-Save the default credentialS file to the folder you will like to use as a volume for temporary storage and run the following command from that directory:
+Save the default credentials file to the folder you will like to use as a volume for temporary storage and run the following command from that directory:
 
 ```
 docker run \
