@@ -20,8 +20,6 @@ def set_sqlite_pragma(dbapi_connection, connection_record):
     cursor.close()
 
 GCS_STICKERS_BUCKET = "theo-stickers"
-AUTH_PATH = "C:/Users/theo_/OneDrive/Documents/Sticker Book Project/server/application_default_credentials.json"
-PROJECT_ID = "striking-effort-449723-j6"
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///stickers.db"
@@ -175,6 +173,6 @@ api.add_resource(Positions, "/positions")
 api.add_resource(Position, "/positions/<id>")
 
 if __name__ == "__main__":
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = AUTH_PATH
-    os.environ["GCLOUD_PROJECT"] = PROJECT_ID
-    app.run(debug=True)
+    #os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = AUTH_PATH
+    #os.environ["GCLOUD_PROJECT"] = PROJECT_ID
+    app.run(host='0.0.0.0')

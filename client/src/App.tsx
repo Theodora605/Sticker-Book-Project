@@ -1,5 +1,4 @@
 import StickerBook from "./components/StickerBook";
-import StickerDeleteModal from "./components/StickerDeleteModal";
 
 function App() {
   return (
