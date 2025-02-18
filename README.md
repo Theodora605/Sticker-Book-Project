@@ -74,6 +74,7 @@ This request submits the attached file to the Google Cloud bucket and saves a re
 
 Request:
 `DELETE /stickers/<id>`
+
 This request deletes the sticker and its associated positions with id equal to the passed path variable <id>.
 
 ### 4. Add Position
@@ -96,6 +97,7 @@ This request links new position data as a CSS matrix transform to a specified st
 
 Request:
 `DELETE /positions/<id>`
+
 This request deletes the position with id equal to the passed path variable <id>.
 
 ### 6. Update Position
